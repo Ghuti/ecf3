@@ -1,0 +1,41 @@
+<%- include('layouts/head'); -%> 
+
+<div style="margin-top: 5rem;">
+  <form action="" method="">
+    <div>
+      <label for="name">name: </label>
+      <input type="text" name="name" id="name" required>
+    </div>
+    <div>
+      <label for="description">description: </label>
+      <textarea name="description" id="description" required></textarea>
+    </div>
+    <div>
+      <label for="reference">reference: </label>
+      <input type="text" name="reference" id="reference" required>
+    </div>
+    <div>
+      <label for="quantite">quantite: </label>
+      <select type="text" name="quantite" id="quantite" required>
+        <%- optionQ %>
+      </select>
+    </div>
+    <div>
+      <label for="marque">marque: </label>
+      <select type="text" name="marque" id="marque" required>
+        <%- optionM %>
+      </select>
+    </div>
+    <div>
+      <label for="categorie">categorie: </label>
+      <select type="text" name="categorie" id="categorie" required>
+        <%- optionC %>
+      </select>
+    </div>
+    <div>
+      <input type="submit" value="ajouté!">
+    </div>
+  </form>
+</div>
+
+<%- include('layouts/footer'); -%> 

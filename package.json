@@ -1,0 +1,17 @@
+{
+  "name": "ecf3",
+  "version": "1.0.0",
+  "description": "ECF3",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon -r esm index.js"
+  },
+  "author": "Ghutilife",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.3",
+    "esm": "^3.2.25",
+    "express": "^4.17.1",
+    "mysql": "^2.18.1"
+  }
+}
